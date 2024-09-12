@@ -6,11 +6,7 @@
 
 class Solution(object):
     def hasCycle(self, head):
-        if not head or not head.next:
-            return False
-
-        slow_ptr = head
-        fast_ptr = head 
+        slow_ptr, fast_ptr = head, head
 
         while fast_ptr and fast_ptr.next:
             slow_ptr = slow_ptr.next       
