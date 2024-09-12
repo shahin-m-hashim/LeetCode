@@ -6,16 +6,21 @@
 
 class Solution(object):
     def hasCycle(self, head):
-        if (not head) or (not head.next):
+        if not head or not head.next:
             return False
 
-        curr_node = head
-        nodes = []
-        while curr_node:
-            if curr_node in nodes:
+        slow_ptr = head
+        fast_ptr = head 
+
+        while fast_ptr and fast_ptr.next:
+            slow_ptr = slow_ptr.next       
+            fast_ptr = fast_ptr.next.next
+            
+            if slow_ptr == fast_ptr:     
                 return True
-            nodes.append(curr_node)
-            curr_node = curr_node.next
+
+        return False 
+        
 
 
         
