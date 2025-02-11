@@ -4,9 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        nums.sort()
-        for n in range(len(nums) + 1):
-            if n not in nums:
-                return n
-        
-        return -1
+        n = len(nums)
+        expected_sum = n * (n + 1) // 2
+        actual_sum = sum(nums)
+        return expected_sum - actual_sum
