@@ -3,7 +3,7 @@ class Solution(object):
         nums.sort()
         triplets = []
         
-        for i, num in enumerate(nums[:-2]):  # Avoids out-of-bounds access
+        for i, num in enumerate(nums):  # Avoids out-of-bounds access
             if i > 0 and num == nums[i - 1]:  # Skip duplicates
                 continue
             
