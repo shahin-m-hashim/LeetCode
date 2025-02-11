@@ -4,6 +4,9 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        for i in range(len(nums) + 1):
-            if i not in nums:
-                return i 
+        nums.sort()
+        for n in range(len(nums) + 1):
+            if n not in nums:
+                return n
+        
+        return -1
