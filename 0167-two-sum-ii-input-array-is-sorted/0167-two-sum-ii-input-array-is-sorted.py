@@ -1,10 +1,13 @@
 class Solution(object):
-    def twoSum(self, nums, target):
-        index_map = {} # num -> index
-        for idx, num in enumerate(nums):
-            complement = target - num
-            if complement in index_map:
-                return [index_map[complement] + 1, idx + 1]
-            index_map[num] = idx
-        return []
+    def twoSum(self, numbers, target):
+        left, right = 0, len(numbers) - 1  # Two-pointer approach
         
+        while left < right:
+            total = numbers[left] + numbers[right]
+            
+            if total == target:
+                return [left + 1, right + 1]  # Convert to 1-based indexing
+            elif total < target:
+                left += 1  # Increase sum by moving left pointer
+            else:
+                right -= 1  # Decrease sum by moving right pointer
