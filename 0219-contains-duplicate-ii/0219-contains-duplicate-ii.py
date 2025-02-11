@@ -1,10 +1,11 @@
 class Solution(object):
     def containsNearbyDuplicate(self, nums, k):
-        seen = set()
-        for i,num in enumerate(nums):
-            if num in seen:
-                return True
-            seen.add(num)
-            if len(seen) > k:
-                seen.remove(nums[i - k])
+        index_map = {}  # Store last index of each number
+        
+        for i, num in enumerate(nums):
+            if num in index_map and abs(i - index_map[num]) <= k:
+                return True  # Found a duplicate within k distance
+            
+            index_map[num] = i  # Update the last seen index
+        
         return False
