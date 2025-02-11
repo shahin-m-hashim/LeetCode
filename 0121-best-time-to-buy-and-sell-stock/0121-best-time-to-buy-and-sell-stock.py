@@ -1,13 +1,13 @@
 class Solution(object):
     def maxProfit(self, prices):
-        if not prices:
-            return 0  # Edge case: empty array
-        
-        max_profit = 0  # Track max profit
-        min_price = float('inf')  # Track lowest price
+        l, r = 0, 1  # Left (buy) and Right (sell) pointers
+        max_profit = 0  
 
-        for price in prices:
-            min_price = min(min_price, price)  # Update min_price if we find a lower price
-            max_profit = max(max_profit, price - min_price)  # Update max_profit
-            
+        while r < len(prices):  # Iterate while r is within bounds
+            if prices[r] > prices[l]:  # If sell price is greater than buy price
+                max_profit = max(max_profit, prices[r] - prices[l])
+            else:
+                l = r  # Move buy pointer to r (new minimum price)
+            r += 1  # Move sell pointer forward
+        
         return max_profit
