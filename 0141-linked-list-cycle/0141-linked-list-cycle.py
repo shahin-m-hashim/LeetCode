@@ -1,22 +1,21 @@
-# Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
 
-class Solution(object):
+class Solution:
     def hasCycle(self, head):
-        slow_ptr, fast_ptr = head, head
-
-        while fast_ptr and fast_ptr.next:
-            slow_ptr = slow_ptr.next       
-            fast_ptr = fast_ptr.next.next
+        slow = head  # Slow pointer
+        fast = head  # Fast pointer
+        
+        # Traverse the list
+        while fast and fast.next:
+            slow = slow.next          # Move slow by 1 step
+            fast = fast.next.next     # Move fast by 2 steps
             
-            if slow_ptr == fast_ptr:     
+            # If slow and fast meet, there is a cycle
+            if slow == fast:
                 return True
-
-        return False 
         
-
-
-        
+        # If fast reaches the end, there is no cycle
+        return False
