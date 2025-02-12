@@ -6,13 +6,15 @@ class TreeNode(object):
 
 class Solution(object):
     def invertTree(self, root):
-        stack = [root]
-
-        while stack:
-            curr = stack.pop()
-            if curr:
-                curr.left, curr.right = curr.right, curr.left
-                stack.extend([curr.left, curr.right])
+        if not root:
+            return None
+        
+        # Swap left and right children
+        root.left, root.right = root.right, root.left
+        
+        # Recursively invert left and right subtrees
+        self.invertTree(root.left)
+        self.invertTree(root.right)
         
         return root
         
