@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1306-minimum-absolute-difference](https://github.com/shahin-m-hashim/LeetCode/tree/master/1306-minimum-absolute-difference) |
 | [1395-minimum-time-visiting-all-points](https://github.com/shahin-m-hashim/LeetCode/tree/master/1395-minimum-time-visiting-all-points) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/shahin-m-hashim/LeetCode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
+| [2195-time-needed-to-buy-tickets](https://github.com/shahin-m-hashim/LeetCode/tree/master/2195-time-needed-to-buy-tickets) |
 ## Sorting
 |  |
 | ------- |
@@ -122,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/shahin-m-hashim/LeetCode/tree/master/0054-spiral-matrix) |
+| [2195-time-needed-to-buy-tickets](https://github.com/shahin-m-hashim/LeetCode/tree/master/2195-time-needed-to-buy-tickets) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -193,4 +195,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/shahin-m-hashim/LeetCode/tree/master/0225-implement-stack-using-queues) |
+| [2195-time-needed-to-buy-tickets](https://github.com/shahin-m-hashim/LeetCode/tree/master/2195-time-needed-to-buy-tickets) |
 <!---LeetCode Topics End-->
