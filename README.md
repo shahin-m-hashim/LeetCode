@@ -87,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0136-single-number](https://github.com/shahin-m-hashim/LeetCode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/shahin-m-hashim/LeetCode/tree/master/0268-missing-number) |
+| [0338-counting-bits](https://github.com/shahin-m-hashim/LeetCode/tree/master/0338-counting-bits) |
 ## Counting
 |  |
 | ------- |
@@ -124,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/shahin-m-hashim/LeetCode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shahin-m-hashim/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0322-coin-change](https://github.com/shahin-m-hashim/LeetCode/tree/master/0322-coin-change) |
+| [0338-counting-bits](https://github.com/shahin-m-hashim/LeetCode/tree/master/0338-counting-bits) |
 | [0875-longest-mountain-in-array](https://github.com/shahin-m-hashim/LeetCode/tree/master/0875-longest-mountain-in-array) |
 ## Enumeration
 |  |
