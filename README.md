@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/shahin-m-hashim/LeetCode/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/shahin-m-hashim/LeetCode/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/shahin-m-hashim/LeetCode/tree/master/0268-missing-number) |
+| [0303-range-sum-query-immutable](https://github.com/shahin-m-hashim/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/shahin-m-hashim/LeetCode/tree/master/0322-coin-change) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/shahin-m-hashim/LeetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0875-longest-mountain-in-array](https://github.com/shahin-m-hashim/LeetCode/tree/master/0875-longest-mountain-in-array) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/shahin-m-hashim/LeetCode/tree/master/0209-minimum-size-subarray-sum) |
+| [0303-range-sum-query-immutable](https://github.com/shahin-m-hashim/LeetCode/tree/master/0303-range-sum-query-immutable) |
 ## Memoization
 |  |
 | ------- |
@@ -143,4 +145,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/shahin-m-hashim/LeetCode/tree/master/0053-maximum-subarray) |
+## Design
+|  |
+| ------- |
+| [0303-range-sum-query-immutable](https://github.com/shahin-m-hashim/LeetCode/tree/master/0303-range-sum-query-immutable) |
 <!---LeetCode Topics End-->
