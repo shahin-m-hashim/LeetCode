@@ -6,15 +6,29 @@ class TreeNode:
 
 class Solution:
     def hasPathSum(self, root, targetSum):
-        # Base case: if the root is None, no path exists
+        # If root is None, return False as there's no path
         if not root:
             return False
         
-        # If we're at a leaf node, check if the path sum equals targetSum
-        if not root.left and not root.right:
-            return root.val == targetSum
+        # Stack will store (current_node, current_sum)
+        stack = [(root, root.val)]
         
-        # Recursively check left and right subtrees with the updated sum
-        targetSum -= root.val
+        # Iterate while there are nodes to process
+        while stack:
+            node, current_sum = stack.pop()
+            
+            # If it's a leaf node, check if the path sum matches targetSum
+            if not node.left and not node.right:
+                if current_sum == targetSum:
+                    return True
+            
+            # Push right child to stack if it exists
+            if node.right:
+                stack.append((node.right, current_sum + node.right.val))
+            
+            # Push left child to stack if it exists
+            if node.left:
+                stack.append((node.left, current_sum + node.left.val))
         
-        return self.hasPathSum(root.left, targetSum) or self.hasPathSum(root.right, targetSum)
+        # If no path matches targetSum, return False
+        return False
