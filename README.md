@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shahin-m-hashim/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0800-letter-case-permutation](https://github.com/shahin-m-hashim/LeetCode/tree/master/0800-letter-case-permutation) |
 ## Sliding Window
 |  |
 | ------- |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/shahin-m-hashim/LeetCode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/shahin-m-hashim/LeetCode/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/shahin-m-hashim/LeetCode/tree/master/0338-counting-bits) |
+| [0800-letter-case-permutation](https://github.com/shahin-m-hashim/LeetCode/tree/master/0800-letter-case-permutation) |
 ## Counting
 |  |
 | ------- |
@@ -149,4 +151,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/shahin-m-hashim/LeetCode/tree/master/0303-range-sum-query-immutable) |
+## Backtracking
+|  |
+| ------- |
+| [0800-letter-case-permutation](https://github.com/shahin-m-hashim/LeetCode/tree/master/0800-letter-case-permutation) |
 <!---LeetCode Topics End-->
