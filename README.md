@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/shahin-m-hashim/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0206-reverse-linked-list](https://github.com/shahin-m-hashim/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/shahin-m-hashim/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
@@ -163,4 +164,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0077-combinations](https://github.com/shahin-m-hashim/LeetCode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/shahin-m-hashim/LeetCode/tree/master/0078-subsets) |
 | [0800-letter-case-permutation](https://github.com/shahin-m-hashim/LeetCode/tree/master/0800-letter-case-permutation) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/shahin-m-hashim/LeetCode/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
