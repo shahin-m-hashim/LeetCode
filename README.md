@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0141-linked-list-cycle](https://github.com/shahin-m-hashim/LeetCode/tree/master/0141-linked-list-cycle) |
+| [0908-middle-of-the-linked-list](https://github.com/shahin-m-hashim/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
@@ -26,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0141-linked-list-cycle](https://github.com/shahin-m-hashim/LeetCode/tree/master/0141-linked-list-cycle) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shahin-m-hashim/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0875-longest-mountain-in-array](https://github.com/shahin-m-hashim/LeetCode/tree/master/0875-longest-mountain-in-array) |
+| [0908-middle-of-the-linked-list](https://github.com/shahin-m-hashim/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/shahin-m-hashim/LeetCode/tree/master/1019-squares-of-a-sorted-array) |
 ## Array
 |  |
