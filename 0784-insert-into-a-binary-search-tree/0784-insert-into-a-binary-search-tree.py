@@ -6,17 +6,19 @@
 
 class Solution(object):
     def insertIntoBST(self, root, val):
-        # If root is None, place the new value here
+       # If root is None, place the new value here
         if not root:
             return TreeNode(val)
         
         # Traverse the tree to find the correct spot
-        if val < root.val:
-            # Go to the left subtree
-            root.left = self.insertIntoBST(root.left, val)
-        else:
+        if val > root.val:
             # Go to the right subtree
             root.right = self.insertIntoBST(root.right, val)
+            
+        else:
+            # Go to the left subtree
+            root.left = self.insertIntoBST(root.left, val)
+            
         
         # Return the root as it remains unchanged
         return root
